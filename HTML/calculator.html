@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+	
+    <div id="container">
+        <div id="calculator">
+    <div id="keyboard">
+        <input type="text" id="number"><br>
+        <button class="operator" id="clear">C</button>
+        <button class="operator" id="backspace">CE</button>
+        <button class="operator" id="%" onclick="modulo()">%</button>
+        <button class="operator" id="multi" onclick="callequal()">=</button>
+        <button class="operator" id="divi" onclick="divide()">&#247;</button>
+        <button class="operator" id="subst" onclick="subtract()">-</button>
+        <button class="operator" id="addi" onclick="add()">+</button>
+        <button class="number" id="cross" onclick="multiply()">&times;</button>
+        <button class="number" id="dot" onclick="calldot()">.</button>
+        <button class="number" id="nine" onclick="call9()">9</button>
+        <button class="number" id="eight" onclick="call8()">8</button>
+        <button class="number" id="seven" onclick="call7()">7</button>
+        <button class="number" id="six" onclick="call6()">6</button>
+        <button class="number" id="five" onclick="call5()">5</button>
+        <button class="number" id="four" onclick="call4()">4</button>
+        <button class="number" id="three" onclick="call3()">3</button>
+        <button class="number" id="zero" onclick="call0()">0</button>
+        <button class="operator" id="one" onclick="call1()">1</button>
+        <button class="operator" id="two" onclick="call2()">2</button>
+    </div>
+    </div>
+    </div>
+    <script src="/javascript/calc.js"></script>
+</body>
+</html>

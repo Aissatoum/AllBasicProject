@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/todolist.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js" integrity="sha512-1lagjLfnC1I0iqH9plHYIUq3vDMfjhZsLy9elfK89RBcpcRcx4l+kRJBSnHh2Mh6kLxRHoObD1M5UTUbgFy6nA==" crossorigin="anonymous"></script> -->
+    <title>Todolist</title>
+</head>
+<body>
+    <header>
+        <h1>Aisha's Todo List</h1>
+    </header>
+    <form>
+        <input type="text" class="todo-input" />
+        <button class="todo-button" type="submit">
+            <i class='fas fa-plus-square'></i>
+        </button>
+        <div class="select">
+<select name="todos" class="filter-todo">
+<option value="all">All</option>
+<option value="completed">Completed</option>
+<option value="uncompleted">Uncompleted</option>
+</select>
+        </div>
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list">
+        </ul>
+    </div>
+    <!-- <div class="container">
+<input type="text" class="txtb" placeholder="Add a task">
+<div class="notcomp">
+    <h3>Not Completed</h3>
+</div>
+<div class="comp">
+<h3>Completed</h3>
+
+</div>
+    </div> -->
+    <script src="../javascript/todolist.js"></script>
+</body>
+</html>
